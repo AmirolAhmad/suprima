@@ -1,7 +1,7 @@
 set :application, 'suprima_production'
-set :stage, :staging
+set :stage, :production
 set :release_note_url, 'http://suprima.club/changelog.txt'
-set :rails_env, :staging
+set :rails_env, :production
 
 # server-based syntax
 # ======================
