@@ -47,6 +47,12 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
+staging:
+  <<: *default
+  database: suprima_staging
+  username: suprima
+  password: <%= ENV['SUPRIMA_DATABASE_PASSWORD'] %>
+
 production:
   <<: *default
   database: suprima_production
