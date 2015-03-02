@@ -28,6 +28,9 @@ gem 'redis-namespace'
 gem 'redis-rails'
 gem 'redis-rack-cache'
 
+gem 'sidekiq'
+gem 'sinatra', '>= 1.3.0', :require => nil
+
 group :development do
   gem 'capistrano', github: "capistrano/capistrano", require: false
   gem 'capistrano-rbenv', github: "capistrano/rbenv", require: false
