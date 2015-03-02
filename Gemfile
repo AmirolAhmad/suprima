@@ -23,6 +23,11 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'redis'
+gem 'redis-namespace'
+gem 'redis-rails'
+gem 'redis-rack-cache'
+
 group :development do
   gem 'capistrano', github: "capistrano/capistrano", require: false
   gem 'capistrano-rbenv', github: "capistrano/rbenv", require: false
